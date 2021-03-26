@@ -5,6 +5,7 @@ import {chooseFood, tryAgain} from "../Redux/quiz-reducer";
 
 class QuizComponent extends React.Component {
     componentDidMount() {
+
     }
 
 

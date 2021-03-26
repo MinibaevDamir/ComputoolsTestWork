@@ -49,7 +49,7 @@ const Quiz = props => {
             </h1>
         </header>
         <div>
-            <h3>Tell Us Your Favorite Foods And We’ll Guess What Type Of Personality You Have</h3>
+            <h3 className= "question">Tell Us Your Favorite Foods And We’ll Guess What Type Of Personality You Have</h3>
             <div className="question">
                 Pick some food
                 <div>
@@ -137,7 +137,7 @@ const Quiz = props => {
                                 : <div>Check the test for result</div>}
             </div>
         <div className= "result">
-            {(props.quizCount.length === 5) ? <button>Try again</button> : <div> </div>}
+            {(props.quizCount.length === 5) ? <button onClick={() => {props.tryAgain()}}>Try again</button> : <div> </div>}
         </div>
         </div>
     </div>

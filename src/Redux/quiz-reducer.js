@@ -11,7 +11,7 @@ const quizReducer = (state = initialState, action) => {
             return {...state,
                replies: [...state.replies, action.replies], count: [...state.count, action.count], buttonStatus: [...state.buttonStatus, action.buttonStatus]};
         case TRY_AGAIN:
-            return {state: [state], buttonStatus: [state.buttonStatus], count: [state.count]}
+            return {state: [initialState], count: [], replies: [], buttonStatus: []}
         default:
 
             return state;

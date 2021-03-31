@@ -1,7 +1,7 @@
 import React from "react";
 import CardQuiz from "./QuizCard/QuizCard";
 import ResultCard from "./QuizCard/ResultCard";
-import quizCollection from "./Data/QuizData.json";
+import quizCollection from "../Data/QuizData.json";
 
 function sum (counts) {
     let result = 0;

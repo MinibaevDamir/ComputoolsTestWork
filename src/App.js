@@ -5,11 +5,9 @@ import QuizContainer from "./Containers/quizContainer";
 
 function App() {
   return (
-      <BrowserRouter>
         <div className = 'app-wrapper'>
             <QuizContainer/>
         </div>
-      </BrowserRouter>
   );
 }
 

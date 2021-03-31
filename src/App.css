@@ -10,6 +10,14 @@
  .result {
    margin-left: 7%
  }
+ .button:disabled{
+   display: none;
+ }
+ .picked {
+   text-decoration: dimgrey;
+   margin-left: 2%;
+   font-weight: normal;
+ }
 .headerQuiz {
   margin-left: 9%;
 }

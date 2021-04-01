@@ -2,15 +2,6 @@ import React from "react";
 import BlockOfQuiz from "./Blocks/BlockOfQuiz";
 import BlockOfResults from "./Blocks/BlockOfResults";
 
-
-function sum (counts) {
-    let result = 0;
-    for (let count of Object.values(counts)) {
-        result += count;
-    }
-    return result;
-}
-
 const Quiz = props => {
     return <div className="App">
         <header className="headerQuiz">
